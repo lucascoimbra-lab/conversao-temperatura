@@ -33,6 +33,6 @@ jobs:
         context: ./src
         file: ./src/Dockerfile
         push: true
-        tags: |
+        tags: | 
           lucascoimbra/aula-conversao-temperatura:v1
           lucascoimbra/aula-conversao-temperatura:latest
