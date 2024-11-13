@@ -40,5 +40,5 @@ jobs:
         file: ./src/Dockerfile
         push: true
         tags: | 
-          lucascoimbra/aula-conversao-temperatura:v1
+          lucascoimbra/aula-conversao-temperatura:${{github.run_number}}
           lucascoimbra/aula-conversao-temperatura:latest
